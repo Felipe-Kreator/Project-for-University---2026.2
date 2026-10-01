@@ -1,11 +1,107 @@
-# Project-for-University---2026.2
+# CyberQuiz — Quiz de Cibersegurança
 
-# Descrição em Português
+Projeto acadêmico de uma aplicação web educacional para testar e ampliar conhecimentos sobre cibersegurança por meio de perguntas interativas.
 
-Criando um novo projeto universitario sobre a criação de um Quiz cujo tema tenha de ser relacionado a tecnologia/computação usando C, HTML5, CSS3, JavaScript e PostgreeSQL com a limitação de não poder usar frameworks como Nest.JS e nem Node.JS. para o JavaScript ou qualquer outra linguagem a ser usada neste trabalho.
-estaremos usando o PostgreeSQL como nosso banco de dados e armazenamento de dados como Ranking, pontuação e e tipo de pergunta. Estaremos usando C (programming Lanuage) para fazer o back-ed do trabalho e caso der tempo, fazer uma aplicação com API. Usaremos JavaSript, HTML5 e CSS3 para fazermos a parte visual que no caso, sera o nosso Front-end.
+**Período:** 2026.2  
+**Integrantes:** João, Maria e Felipe  
+**Tecnologias previstas:** HTML5, CSS3, JavaScript e PostgreSQL
 
-# Description In English
+## Sobre o projeto
 
-Developing a new university project to create a quiz focused on technology or computing, using C, HTML5, CSS3, JavaScript, and PostgreSQL, with the constraint that no frameworks—such as Nest.js or Node.js—may be used for JavaScript or any other language employed in the project.
-We will be using PostgreSQL as our database to store data such as rankings, scores, and question types. We will use C for the backend, and if time permits, we will build an API-based application. We will use JavaScript, HTML5, and CSS3 to create the visual component—our frontend.
+O CyberQuiz propõe uma experiência de aprendizado com perguntas de múltipla escolha sobre segurança digital, ameaças cibernéticas, proteção de dados e boas práticas.
+
+A aplicação deverá permitir que os participantes respondam a perguntas, acompanhem seu desempenho e consultem um ranking de pontuações.
+
+## Objetivos
+
+- Promover a conscientização sobre cibersegurança.
+- Testar conhecimentos sobre segurança digital.
+- Organizar perguntas por categorias.
+- Calcular e armazenar pontuações.
+- Apresentar um ranking de resultados.
+- Aplicar boas práticas de desenvolvimento seguro.
+
+## Tecnologias
+
+| Tecnologia | Finalidade |
+|---|---|
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização e responsividade |
+| JavaScript | Lógica do frontend e backend |
+| PostgreSQL | Persistência dos dados |
+| Git | Controle de versão |
+| GitHub | Colaboração e hospedagem do repositório |
+
+O projeto não prevê o uso de frameworks. O ambiente de execução do backend deverá ser confirmado conforme as regras da disciplina.
+
+## Funcionalidades previstas
+
+- [ ] Tela inicial
+- [ ] Exibição de perguntas e alternativas
+- [ ] Seleção e validação de respostas
+- [ ] Cálculo da pontuação
+- [ ] Tela de resultados
+- [ ] Armazenamento de resultados
+- [ ] Ranking de participantes
+- [ ] Organização das perguntas por categorias
+
+## Estrutura planejada
+
+```text
+Project-for-University---2026.2/
+├── docs/
+│   ├── documentacao.md
+│   ├── requisitos.md
+│   ├── arquitetura.md
+│   ├── banco-de-dados.md
+│   └── casos-de-uso.md
+├── quiz_cyberseguranca/
+│   ├── frontend/
+│   ├── backend/
+│   └── database/
+├── .gitignore
+└── README.md
+```
+
+Esta é uma estrutura planejada. Os diretórios da aplicação podem ser criados durante a implementação.
+
+## Documentação
+
+- [Documentação geral](docs/documentacao.md)
+- [Requisitos](docs/requisitos.md)
+- [Arquitetura](docs/arquitetura.md)
+- [Banco de dados](docs/banco-de-dados.md)
+- [Casos de uso](docs/casos-de-uso.md)
+
+## Requisitos para execução
+
+Quando a aplicação estiver implementada, serão necessários:
+
+- Navegador moderno.
+- PostgreSQL configurado.
+- Ambiente de execução JavaScript compatível com o backend.
+- Arquivos e configurações da aplicação.
+
+As instruções exatas de instalação e execução serão incluídas após a definição do ambiente e a implementação.
+
+## Segurança
+
+A aplicação deverá adotar validação no backend, consultas parametrizadas, proteção das respostas corretas, controle da lógica de pontuação, tratamento seguro de erros e proteção de credenciais.
+
+## Equipe
+
+| Integrante | Responsabilidades propostas |
+|---|---|
+| João | Backend e apoio à documentação técnica |
+| Maria | Frontend e interface |
+| Felipe | Banco de dados, integração, documentação geral e organização do repositório |
+
+A divisão é inicial e pode ser ajustada entre os integrantes.
+
+## Status
+
+**Em planejamento e documentação.**
+
+## Licença
+
+A licença do projeto deverá ser definida pela equipe e registrada em um arquivo `LICENSE`, caso seja necessária.
