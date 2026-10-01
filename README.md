@@ -92,7 +92,7 @@ A aplicação deverá adotar validação no backend, consultas parametrizadas, p
 
 | Integrante | Responsabilidades propostas |
 |---|---|
-| João | Backend e apoio à documentação técnica |
+| João | Banco de dados |
 | Maria | Frontend e interface |
 | Felipe | Banco de dados, integração, documentação geral e organização do repositório |
 
